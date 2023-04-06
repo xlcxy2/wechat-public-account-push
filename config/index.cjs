@@ -114,7 +114,7 @@ const USER_CONFIG = {
       id: 'okDcJ6MiA7CXdqOy9YUxNEAChj7c',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'qZhyZ662UtOpNvBtpmMQgz7Bfi1rrTtgv-lW6O0oQV0',
+      useTemplateId: '0bXvbK9axHWEJcZj5bjBuZ7PwX2DXNIU6-cU4ctOP5g',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
@@ -131,16 +131,11 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '老婆', year: '1996', date: '09-09',
         },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
+       
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
-        {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-        }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
