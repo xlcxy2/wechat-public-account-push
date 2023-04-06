@@ -1,4 +1,3 @@
-# config参数说明
 /* eslint-disable */
 const USER_CONFIG = {
   /**
