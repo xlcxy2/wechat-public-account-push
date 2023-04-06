@@ -47,7 +47,7 @@ const USER_CONFIG = {
     oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: ture,
+    earthyLoveWords: true,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     momentCopyrighting: false,
@@ -114,7 +114,7 @@ const USER_CONFIG = {
       id: 'oatre6lpoJq9jpsVvZOfsies1mnk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'UXwNeeZciRB7_ZhxARxy18y4Kp-QE-Y8jMkMie5lleQ',
+      useTemplateId: 'zh8M2tgvwRrhu7Tjqw9b9DBBZ3-dCQrr7gbo5cDl6CU',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
