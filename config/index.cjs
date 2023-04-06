@@ -114,7 +114,7 @@ const USER_CONFIG = {
       id: 'oatre6lpoJq9jpsVvZOfsies1mnk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'OZs0G56_xdlx69xij1VQqYqphMduSnH2vJFFGb9dwCM',
+      useTemplateId: 'Xt5l0MKv-xXPu2zwCxRrm0ZLntKvH6msbeBDUjnwrzg',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
