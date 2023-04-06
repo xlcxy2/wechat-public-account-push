@@ -42,26 +42,26 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: true,
+    CIBA: false,
     
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
+    oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: true,
+    poisonChickenSoup: false,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
+    horoscope: false,
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -69,7 +69,7 @@ const USER_CONFIG = {
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
+    courseSchedule: false,
   },
   
   TIAN_API: {
@@ -78,16 +78,16 @@ const USER_CONFIG = {
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+    morningGreeting: false,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 3,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 3,
+    networkHot: 0,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'default',
@@ -115,7 +115,7 @@ const USER_CONFIG = {
       id: 'okDcJ6MiA7CXdqOy9YUxNEAChj7c',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '3aMK2bJx5EZmGwOv2CwRiVwmcoj99p2V1Eu1rNdgDGE',
+      useTemplateId: 'qZhyZ662UtOpNvBtpmMQgz7Bfi1rrTtgv-lW6O0oQV0',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
@@ -125,7 +125,7 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'http://njw.xjistedu.cn/jsxsd/framework/xsMain.jsp',
+      openUrl: '',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -160,7 +160,7 @@ const USER_CONFIG = {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
-          date: '2022-09-23',
+          date: '2023-04-06',
           // 该日期是否为单周
           isOdd: true
         },
